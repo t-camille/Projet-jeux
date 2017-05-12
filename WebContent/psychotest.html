@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Psychotest</title>
+<link rel="stylesheet" type="text/css" href="./css/psychotest.css" />
 </head>
 <body>
 <h1>Psychotest</h1>
+	<div id="resultats" class="invisible">
+		<h2>Résultats</h2>
+		<article id="A" class="invisible">
+			<p>votre Chakra Racine est bloqué</p>
+		</article>
+		<article id="B" class="invisible">
+            <p>votre Chakra Racine est ralenti</p>
+        </article>
+        <article id="C" class="invisible">
+            <p>Vous êtes en parfaite harmonie</p>
+        </article>
+        </div>
+	
+	<form id="test" class="visible">
+	<div id = "div1">
+		<fieldset id="question1" class="fondBlanc">
+			<legend>Question 1</legend>
+			<p>Vous jouez à un sport collectif avec des joueurs(ses) expérimenté(e)s qui paraissent fort(e)s.</p>
+			<!-- complétement -->
+			<input id="q1_a" type="radio" name="q1" value="a">Vous prenez peur et vous dites que vous n'y arriverez jamais<br>
+			<!-- un peu -->
+			<input id="q1_b" type="radio" name="q1" value="b">Vous prenez peur mais vous donnez le courage d'y arriver<br>
+			<!-- pas du tout -->
+			<input id="q1_c" type="radio" name="q1" value="c">Cela vous est égale, vous prenez plaisir à jouer et c'est ce qui compte
+		</fieldset>
+		<fieldset id="question2" class="fondBlanc">
+			<legend>Question </legend>
+			<p></p>
+			<!-- complétement -->
+			<input id="q1_a" type="radio" name="q" value="a"><br>
+			<!-- un peu -->
+			<input id="q1_b" type="radio" name="q" value="b"><br>
+			<!-- pas du tout -->
+			<input id="q1_c" type="radio" name="q" value="c">
+		</fieldset>
+		<fieldset id="question3" class="fondBlanc">
+			<legend>Question </legend>
+			<p></p>
+			<!-- complétement -->
+			<input id="q1_a" type="radio" name="q" value="a"><br>
+			<!-- un peu -->
+			<input id="q1_b" type="radio" name="q" value="b"><br>
+			<!-- pas du tout -->
+			<input id="q1_c" type="radio" name="q" value="c">
+		</fieldset>
+		</div>
+		<div id ="div2">
+		<fieldset id="question4" class="fondBlanc">
+			<legend>Question </legend>
+			<p></p>
+			<!-- complétement -->
+			<input id="q_a" type="radio" name="q" value="a"><br>
+			<!-- un peu -->
+			<input id="q_b" type="radio" name="q" value="b"><br>
+			<!-- pas du tout -->
+			<input id="q_c" type="radio" name="q" value="c">
+		</fieldset>
+		<fieldset id="question5" class="fondBlanc">
+			<legend>Question </legend>
+			<p></p>
+			<!-- complétement -->
+			<input id="q_a" type="radio" name="q" value="a"><br>
+			<!-- un peu -->
+			<input id="q_b" type="radio" name="q" value="b"><br>
+			<!-- pas du tout -->
+			<input id="q_c" type="radio" name="q" value="c">
+		</fieldset>
+		<fieldset id="question6" class="fondBlanc">
+			<legend>Question </legend>
+			<p></p>
+			<!-- complétement -->
+			<input id="q_a" type="radio" name="q" value="a"><br>
+			<!-- un peu -->
+			<input id="q_b" type="radio" name="q" value="b"><br>
+			<!-- pas du tout -->
+			<input id="q_c" type="radio" name="q" value="c">
+		</fieldset>
+		</div>
+		<input id = "bouton" >type="submit" value="Suivant">
+		</form>
 <script src="./ext/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="./js/psychotest.js"></script>
 </body>
 </html>
